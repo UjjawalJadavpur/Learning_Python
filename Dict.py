@@ -51,3 +51,17 @@ print(student.get("kgs"))
 
 student.update({"city" : "delhi"})
 print(student)
+
+
+marks = {}
+
+x = int(input("enter phy marks : "))
+marks.update({"phy":x})
+
+x = int(input("enter chem marks : "))
+marks.update({"chem":x})
+
+x = int(input("enter math marks : "))
+marks.update({"math":x})
+
+print(marks)
